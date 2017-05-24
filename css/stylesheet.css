@@ -1,0 +1,200 @@
+body,html{
+    height: 100%;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+nav{
+    letter-spacing: 2px;
+    font: 16px "Lato", sans-serif;
+}
+
+.navbar, .container-fluid{
+    background-color: darkcyan !important;
+    text-align: right;
+}
+
+.nav.navbar-nav.navbar-right li a, .navbar-brand {
+    color: white !important;
+}
+
+.nav.navbar-nav.navbar-right li a:hover, .navbar-brand:hover{
+    color:gainsboro !important;
+}
+
+.navbar-header{
+    height: 9px;
+}
+
+
+h3{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color:inherit;
+  font-weight: bold;
+  text-align: center;
+}
+h4{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font: 16px "Lato", sans-serif;
+  color:inherit;
+  text-align: center; 
+}
+
+h5{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font: 14px "Lato", sans-serif;
+  color:inherit;
+  text-align: center; 
+}
+
+h5 a{
+    text-decoration: underline;
+}
+/*LANDING*/
+.landing-img{
+    background-image: url("img/landing-img.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  opacity: 0.95;
+}
+
+/*PARALLAX-1*/
+.parallax-1{
+    background-image: url("img/prlx1.jpg");
+    height: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-1 .reg-caption{
+    position: relative;
+    text-align: center;
+    background-color:transparent;
+    font-size:25px;
+    padding: 0;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    letter-spacing: 8px;
+    color: #f7f7f7;
+}
+
+/*PARALLAX 2*/
+.parallax-2{
+    background-image: url("img/prlx2.jpg");
+    height: 30%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2 .reg-caption{
+    position: relative;
+    text-align: center;
+    background-color:transparent;
+    font-size:25px;
+    padding: 0px;
+    top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    letter-spacing: 8px;
+    color: #f7f7f7;
+}
+/*ABOUT*/
+.about{
+    color: #777;
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
+
+/*SERVICES*/
+.services{
+    color:#ddd;
+    background-color:#282E34;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
+
+/*CONTACT*/
+.contact{
+    color:#ddd;
+    background-color:darkslategray;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
+
+form{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    text-align: justify;
+    width: 40%;
+    height: 100%;
+    background-color:darkgray;
+    border-radius: 10px;
+    margin: auto;
+}
+
+form .imp{
+    color:red;
+    font-weight: bold;
+}
+form p{
+    color:white;
+}
+form span{
+    color:white;
+}
+
+input[text ="text"]{
+    color:black;
+    width: 100%;
+}
+
+/*FOOTER*/
+footer{
+    height:13%;
+    color:whitesmoke;
+    background-color:darkslategrey;
+    text-align:center;
+    padding:10px;
+}
+
+footer a, footer{
+    color: whitesmoke;
+}
+
+footer a:hover{
+    color: gainsboro;
+}
